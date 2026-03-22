@@ -1,6 +1,9 @@
 Połączyłem komendy apt-get update, upgrade i install za pomocą && żeby były w jednej warstwie
-#Czyszczenie cache (rm -rf /var/lib/apt/lists/*) - mniejszy rozmiar końcowy
+
+Czyszczenie cache (rm -rf /var/lib/apt/lists/*) - mniejszy rozmiar końcowy
+
 Parametr --no-install-recommends- żeby nie instalować zbeðnych rzeczy- mniejszy obraz
+
 Użycie LABEL zamiast MAINTAINER-  bo label jest nowszym standardem
 
 
